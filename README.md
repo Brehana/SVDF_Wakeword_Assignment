@@ -95,7 +95,7 @@ DETECTION_THRESHOLD = 0.85  # increase to reduce false positives
 |---|---|
 | `hey_jarvis` | [Kaggle: Hey Jarvis wake word](https://www.kaggle.com/search?q=hey+jarvis+wake+word) |
 | `ok_nambu` | Custom recordings (16 kHz mono WAV) |
-| `unknown` | [Google Speech Commands](https://www.kaggle.com/datasets/jbuchner/speech-commands) |
+| `unknown` | [Synthetic Speech Commands](https://www.kaggle.com/datasets/jbuchner/synthetic-speech-commands-dataset) — downloaded automatically |
 | `silence` | [Environmental Sound Classification](https://www.kaggle.com/datasets/mmoreaux/environmental-sound-classification-50) |
 
 > Recommended class ratio: 1× wake word : 10× unknown : 3× silence
