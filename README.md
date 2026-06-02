@@ -27,9 +27,8 @@ The notebook runs fully out-of-the-box with `USE_SYNTHETIC_DATA = True` — no d
 
 ## 🎯 What This Project Does
 
-1. **Trains a wake-word detector** for two wake words:
+1. **Trains a wake-word detector** for one wake word:
    - `"Hey Jarvis"`
-   - `"OK Nambu"`
 2. **Builds a strong `unknown` class** using Google Speech Commands data
 3. **Extracts MFCC features** (49 frames × 40 bins) from 16 kHz mono audio
 4. **Implements an SVDF architecture**: low-rank factorization via Dense (frequency projection) + Causal DepthwiseConv1D (temporal filter)
@@ -93,10 +92,9 @@ DETECTION_THRESHOLD = 0.85  # increase to reduce false positives
 
 | Class | Source |
 |---|---|
-| `hey_jarvis` | [Kaggle: Hey Jarvis wake word](https://www.kaggle.com/search?q=hey+jarvis+wake+word) |
-| `ok_nambu` | Custom recordings (16 kHz mono WAV) |
+| `hey_jarvis` | [Jarvis Wake Word Dataset](https://www.kaggle.com/datasets/bharvadayash/jarvis-wake-word-dataset) — downloaded automatically |
 | `unknown` | [Synthetic Speech Commands](https://www.kaggle.com/datasets/jbuchner/synthetic-speech-commands-dataset) — downloaded automatically |
-| `silence` | [Environmental Sound Classification](https://www.kaggle.com/datasets/mmoreaux/environmental-sound-classification-50) |
+| `silence` | [DASEE Dataset](https://www.kaggle.com/datasets/abigailcopiaco/daseedataset) — downloaded automatically |
 
 > Recommended class ratio: 1× wake word : 10× unknown : 3× silence
 
