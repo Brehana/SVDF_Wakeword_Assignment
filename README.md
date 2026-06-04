@@ -94,7 +94,7 @@ DETECTION_THRESHOLD = 0.85  # increase to reduce false positives
 |---|---|
 | `hey_jarvis` | [Jarvis Wake Word Dataset](https://www.kaggle.com/datasets/bharvadayash/jarvis-wake-word-dataset) — downloaded automatically |
 | `unknown` | [Synthetic Speech Commands](https://www.kaggle.com/datasets/jbuchner/synthetic-speech-commands-dataset) — downloaded automatically |
-| `silence` | [DASEE Dataset](https://www.kaggle.com/datasets/abigailcopiaco/daseedataset) — downloaded automatically |
+| `silence` | [Background Noise Detection](https://www.kaggle.com/datasets/axondata/background-noise-detection-dataset) + [Audio Noise Dataset](https://www.kaggle.com/datasets/minsithu/audio-noise-dataset) + [UrbanSound8K](https://www.kaggle.com/datasets/rupakroy/urban-sound-8k) — downloaded automatically |
 
 > Recommended class ratio: 1× wake word : 10× unknown : 3× silence
 
